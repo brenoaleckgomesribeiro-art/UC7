@@ -11,3 +11,5 @@ while tentativas < max_tentativas:
     else:
         print("Senha incorreta.")
         tentativas += 1
+else:
+    print("Você excede o número maximo e tentativas. Acesso Bloqueado.")
