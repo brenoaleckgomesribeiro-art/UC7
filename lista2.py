@@ -1,0 +1,11 @@
+nomes = ["joão", "ana","bruno"] #arry, matriz ou vetor
+print(f"Listagem de nomes {nomes}")
+nomes.append("Carlos")
+print(f"Listagem de nomes Atualizada {nomes}")
+n= input("Digite um nome a ser excluido:")
+nomes.remove(n)
+print(f"Listagem de nomes Atualizada com exclusão {nomes}")
+nomes.sort()
+print(f"Listagem de nomes Ordenadas {nomes}")
+l = len(nomes)
+print(f"Lista tem {l} itens")
